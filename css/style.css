@@ -1,2 +1,6 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import "layout.css";
+@import "sidebar.css";
+@import "menubar.css";
+@import "content.css";

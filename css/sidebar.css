@@ -1,0 +1,12 @@
+nav{
+  display: block;
+  position: fixed;
+  width: 175px;
+  height: 343px;
+  left: 125px;
+  top: 450px;
+}
+nav:hover{
+  color: #D8AA52;
+  transition: all .1s ease-out;
+}
