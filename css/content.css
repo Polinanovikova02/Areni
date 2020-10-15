@@ -7,7 +7,7 @@ article div{
 article h1, article h2, article h3, article h4{
   height: 100px;
   font-size: 160px;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Garamond', serif;
   font-style: italic;
   position: relative;
   text-align: center;
@@ -29,7 +29,7 @@ article h4{
 }
 blockquote {
   font-size: 26px;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Garamond', serif;
   font-style: italic;
   position: relative;
 }
@@ -48,4 +48,13 @@ article img{
   width: 450px;
   height: 200px;
   margin: 200px 290px 210px 700px;
+}
+.note{
+  font-size: 120px;
+  color: #D8AA52;
+  font-family: 'Garamond', serif;
+  font-style: italic;
+  position: absolute;
+  text-align: left;
+  display: flex;
 }
