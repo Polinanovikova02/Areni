@@ -32,6 +32,6 @@ li:hover{
   margin-bottom: 85px;
   width: 15px;
   height: 15px;
-  color: white;
+  background: white;
   border-radius: 1px solid black;
 }

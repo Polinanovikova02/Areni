@@ -45,6 +45,20 @@ article img{
   margin: 0 auto;
   margin-top: 100px;
 }
+article div.circle{
+  position: absolute;
+  margin: 90px 0 0 1080px;
+}
+article div.note{
+  position: absolute;
+  margin: 30px 0 0 1050px;
+}
+.circle{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #D8AA52;
+}
 .blockquote{
   width: 450px;
   height: 200px;
@@ -67,4 +81,10 @@ article img{
 }
 .note1{
   margin-top: 150px;
+}
+.note{
+  font-size: 48px;
+  color: #D8AA52;
+  font-family: 'Garamond', serif;
+  font-style: italic;
 }
