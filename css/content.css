@@ -14,46 +14,38 @@ article h1, article h2, article h3, article h4{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
 }
 article h1{
-  margin: 1000px 150px 50px 300px;
+  margin: 1000px 150px 60px 350px;
 }
 article h2{
-  margin-bottom: 100px;
+  margin: 120px 50px 110px 270px;
 }
 article h3{
-  margin-top: 0;
-  margin-bottom: 100px;
+  margin: 0 25px 110px 200px;
 }
 article h4{
-  margin-bottom: 50px;
-}
-
-.blockquote{
-  width: 450px;
-  height: 200px;
-  margin: 200px 290px 200px 700px;
-}
-
-article h2 {
-  font-size: 160px;
-  height: 150px;
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  position: relative;
-  display: flex;
-  margin-left: 200px;
-  margin-right: 50px;
-}
-p {
-  font-size: 28px;
-  line-height: 31.5px;
-  margin-bottom: 25px;
+  margin: 100px 0 60px 175px;
 }
 blockquote {
   font-size: 26px;
   font-family: 'EB Garamond', serif;
   font-style: italic;
   position: relative;
+}
+p {
+  font-size: 28px;
+  line-height: 31.5px;
+  margin-bottom: 25px;
+}
+article img{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.blockquote{
+  width: 450px;
+  height: 200px;
+  margin: 200px 290px 210px 700px;
 }
