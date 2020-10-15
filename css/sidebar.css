@@ -3,7 +3,7 @@ nav{
   position: fixed;
   width: 200px;
   height: 343px;
-  left: 125px;
+  left: 394px;
   top: 450px;
 }
 ul{
@@ -24,8 +24,7 @@ li:hover{
 .vl {
   position: absolute;
   border-left: 1px solid black;
-  height: 300px;
-  margin-top: 21.5px;
+  height: 343px;
 }
 .ellipse {
   position: absolute;
@@ -33,5 +32,5 @@ li:hover{
   width: 15px;
   height: 15px;
   color: white;
-  border: black;
+  border-radius: 1px solid black;
 }
