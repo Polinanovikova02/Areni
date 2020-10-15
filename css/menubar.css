@@ -1,15 +1,20 @@
 .menubar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   height: 190px;
+  padding: 100px 140px 0px 100px;
   box-sizing: border-box;
 }
-.menubar
-
-.menubar a {
-  height: 99px;
+.menubar img {
   width: 200px;
-  left: 1150px;
-  top: 100px;
+  height: 100px;
+}
+.menubar a {
+  font-size: 28px;
+  line-height: 31px;
+  height: 100px;
+  width: 150px;
+}
+a {
+  padding-top: 20px;
 }
