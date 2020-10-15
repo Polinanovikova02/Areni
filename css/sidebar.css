@@ -1,20 +1,30 @@
 nav{
   display: block;
   position: fixed;
-  width: 175px;
+  width: 200px;
   height: 343px;
   left: 125px;
   top: 450px;
 }
-nav ul{
+ul{
   text-decoration: none;
+  margin-left: 25px;
 }
-nav li{
+li{
+  width: 175px;
+  height: 50px;
+  margin-bottom: 50px;
   left: 125px;
   font-size: 28px;
-  line-height: 100px;
+  /* line-height: 100px; */
 }
 li:hover{
   color: #D8AA52;
   transition: all .1s ease-out;
+}
+.vl {
+  position: absolute;
+  border-left: 1px solid black;
+  height: 300px;
+  margin-top: 21.5px;
 }
