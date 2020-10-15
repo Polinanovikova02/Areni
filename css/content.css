@@ -1,0 +1,34 @@
+section div{
+  width: 800px;
+  position: relative;
+  align: center;
+  margin-left: 350px;
+  margin-right: 290px;
+  margin-bottom: 100px;
+}
+article h1 {
+  font-size: 160px;
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  margin-left: 650px;
+  margin-bottom: 50px;
+  margin-top: 1150px;
+  position: relative;
+  align: center;
+}
+article h2 {
+  font-size: 160px;
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  margin-left: 650px;
+  margin-bottom: 50px;
+  position: relative;
+  align: center;
+}
+article h1+p, h2+p {
+  font-size: 28px;
+  position: relative;
+}
+p {
+  font-size: 28px;
+}
