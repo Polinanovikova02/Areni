@@ -1,50 +1,29 @@
 nav{
-  display: block;
-  position: fixed;
   width: 200px;
   height: 343px;
-  left: 394px;
+  display: block;
+  position: fixed;
+  box-sizing: border-box;
+  left: 240px;
   top: 450px;
 }
 ul{
   text-decoration: none;
-  margin-left: 32px;
+  margin-left: 30px;
 }
 li{
   width: 175px;
   height: 50px;
   margin-bottom: 50px;
-  left: 125px;
+  left: 120px;
   font-size: 28px;
 }
 li:hover{
   color: #D8AA52;
   transition: all .1s ease-out;
 }
-.vl {
+nav img {
   position: absolute;
-  border-left: 1px solid black;
-  height: 343px;
-  margin-left: 7px;
-}
-.ellipse1, .ellipse2, .ellipse3, .ellipse4{
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  display: flex;
   margin: 0;
-  margin-bottom: 85px;
-  background: black;
-  border-radius: 50%;
-}
-.ellipse1,.ellipse2, .ellipse3, .ellipse4::after {
-  width: 13px;
-  height: 13px;
-  display: block;
-  position: absolute;
-  left: 1px;
-  top:1px;
-  content: "";
-  background: white;
-  border-radius: 50%;
+  margin-top: 10px;
 }
