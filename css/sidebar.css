@@ -7,9 +7,8 @@ nav{
   top: 450px;
 }
 ul{
-  font-family: 'Garamond', serif;
   text-decoration: none;
-  margin-left: 25px;
+  margin-left: 32px;
 }
 li{
   width: 175px;
@@ -26,12 +25,26 @@ li:hover{
   position: absolute;
   border-left: 1px solid black;
   height: 343px;
+  margin-left: 7px;
 }
-.ellipse {
-  position: absolute;
-  margin-bottom: 85px;
+.ellipse1, .ellipse2, .ellipse3, .ellipse4{
   width: 15px;
   height: 15px;
+  position: absolute;
+  display: flex;
+  margin: 0;
+  margin-bottom: 85px;
+  background: black;
+  border-radius: 50%;
+}
+.ellipse1,.ellipse2, .ellipse3, .ellipse4::after {
+  width: 13px;
+  height: 13px;
+  display: block;
+  position: absolute;
+  left: 1px;
+  top:1px;
+  content: "";
   background: white;
-  border-radius: 1px solid black;
+  border-radius: 50%;
 }
