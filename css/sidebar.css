@@ -7,8 +7,7 @@ nav{
   left: 240px;
   top: 450px;
 }
-ul{
-  text-decoration: none;
+nav ul{
   margin-left: 30px;
 }
 li{
@@ -21,6 +20,9 @@ li{
 li:hover{
   color: #D8AA52;
   transition: all .1s ease-out;
+}
+a{
+  text-decoration: none;
 }
 nav img {
   position: absolute;
