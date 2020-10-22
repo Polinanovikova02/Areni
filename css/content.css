@@ -53,14 +53,6 @@ article div.note{
   position: absolute;
   margin: 30px 0 0 1050px;
 }
-.k{
-  position: relative;
-  margin: 0 auto;
-}
-.k:hover{
-  transform: scale(1.5);
-  transition: all 1s linear;
-}
 .blockquote{
   width: 450px;
   height: 200px;
